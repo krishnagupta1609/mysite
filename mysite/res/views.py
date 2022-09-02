@@ -1,3 +1,9 @@
 from django.shortcuts import render
+from django.http import request,response
 
-# Create your views here.
+
+
+
+def resume(request):
+
+    return render(request,"srt-resume.html")
